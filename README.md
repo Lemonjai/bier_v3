@@ -10,6 +10,9 @@ This log for all the work has been done, including the stuff created, done and m
 * Create the Edit page for beer
 * Create the Update & Destroy methods for beer
 * Using a better logic for Beer Post creation
+* Add the top navbar
+* Add the approipate name for the logo
+* Add the primary styling for the index page
 
 
 <--- Outdated Logs for Bier V2--->
