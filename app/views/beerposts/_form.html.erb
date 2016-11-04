@@ -1,0 +1,16 @@
+<%= form_for @beerpost do |f| %>
+  <% if @beerpost.errors.any? %>
+    <h2><%= pluralize(@beerpost.errors.count, "error") %>Prevent this post from saving:</h2>
+      <ul>
+        <% @beerpost.errors.full_messages.each do |msg| %>
+          <li><% msg %></li>
+        <% end %>
+      </ul>
+  <% end %>
+
+  <%= f.label :title %><br>
+  <%= f.text_field :title %> 
+  <br>
+  <br>
+  <%= f.submit "Create Post" %>
+<% end %>

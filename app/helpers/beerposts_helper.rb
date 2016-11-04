@@ -1,0 +1,2 @@
+module BeerpostsHelper
+end

@@ -1,0 +1,2 @@
+class Beerpost < ApplicationRecord
+end
