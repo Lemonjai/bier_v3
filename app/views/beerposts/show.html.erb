@@ -1,0 +1,5 @@
+<%= @beerpost.title %>
+<br>
+<br>
+<%= link_to "Edit", edit_beerpost_path(@beerpost) %>
+<%= link_to "Delete", beerpost_path(@beerpost), method: :delete, data: {confirm: "Are you sure you want to delete this post?"} %>
