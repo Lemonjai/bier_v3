@@ -4,6 +4,10 @@ This log for all the work has been done, including the stuff created, done and m
 
 
 <--- New Logs for Bier V3 --->
+# Nov 5, 2016
+* Created the index page
+* Updated with the review for the beer
+
 # Nov 3, 2016
 * Created the CRUD for beerposts
 * Create the Create page for beer
