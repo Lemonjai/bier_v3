@@ -8,6 +8,7 @@ This log for all the work has been done, including the stuff created, done and m
 * Created the index page
 * Updated with the review for the beer
 * Updated the beer post with image upload ability
+* Add the share box function
 
 # Nov 3, 2016
 * Created the CRUD for beerposts
