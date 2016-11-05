@@ -7,6 +7,7 @@ This log for all the work has been done, including the stuff created, done and m
 # Nov 5, 2016
 * Created the index page
 * Updated with the review for the beer
+* Updated the beer post with image upload ability
 
 # Nov 3, 2016
 * Created the CRUD for beerposts

@@ -40,7 +40,7 @@ class BeerpostsController < ApplicationController
 
   private
     def post_params
-      params.require(:beerpost).permit(:title)
+      params.require(:beerpost).permit(:title, :image)
     end
 
     def find_post
