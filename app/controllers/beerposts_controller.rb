@@ -1,5 +1,4 @@
 class BeerpostsController < ApplicationController
-
   before_action :find_post, only: [:show, :edit, :update, :destroy] 
 
   def index

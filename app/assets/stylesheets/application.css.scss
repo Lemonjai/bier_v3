@@ -39,6 +39,10 @@ hr {
   margin: 2rem 0;
 }
 
+.circular {
+  border-radius: 50%;
+}
+
 .wrapper{
   width: 90%;
   margin: 0 auto;
@@ -160,4 +164,5 @@ p, ul, ol {
 @import 'normalise';
 @import 'welcome';
 @import 'contact';
+@import 'table';
 @import 'posts_projects';

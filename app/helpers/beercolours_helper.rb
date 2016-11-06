@@ -1,0 +1,2 @@
+module BeercoloursHelper
+end

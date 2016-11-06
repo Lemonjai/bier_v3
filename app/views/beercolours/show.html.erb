@@ -1,0 +1,12 @@
+<div id="post_show_content" class="skinny_wrapper wrapper_padding">
+    <header>
+      <p class="date"><%= @beercolour.created_at.strftime('%A, %B, %d') %></p>
+      <h1><%= @beercolour.name %></h1>
+      <hr>
+    </header>
+
+    <div id="content">
+      <%= simple_format image_tag @beercolour.image.thumb.url.to_s %>
+
+    </div>
+</div>

@@ -9,6 +9,8 @@ This log for all the work has been done, including the stuff created, done and m
 * Updated with the review for the beer
 * Updated the beer post with image upload ability
 * Add the share box function
+* Add the colour being added function
+* Style up the beer functionality
 
 # Nov 3, 2016
 * Created the CRUD for beerposts
@@ -19,6 +21,7 @@ This log for all the work has been done, including the stuff created, done and m
 * Add the top navbar
 * Add the approipate name for the logo
 * Add the primary styling for the index page
+* Has been push to Heroku 
 
 
 <--- Outdated Logs for Bier V2--->

@@ -1,0 +1,27 @@
+<%= form_for @beercolour do |f| %>
+  <% if @beercolour.errors.any? %>
+    <h2><%= pluralize(@beercolour.errors.count, "error") %>Prevent this post from saving:</h2>
+      <ul>
+        <% @beercolour.errors.full_messages.each do |msg| %>
+          <li><% msg %></li>
+        <% end %>
+      </ul>
+  <% end %>
+
+  <%= f.label :name %><br>
+  <%= f.text_field :name %> 
+  <br>
+  <br>
+
+  <%= f.label :image %><br>
+  <%= f.file_field :image %>
+  <% if f.object.image? %>
+    <%= image_tag f.object.image.thumb.url %>
+    <%= f.label :remove_image %>
+    <%= f.check_box :remove_image %> 
+  <% end %>
+
+  <br>
+  <br>
+  <%= f.submit %>
+<% end %>

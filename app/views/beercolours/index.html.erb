@@ -1,0 +1,28 @@
+<div id="post_show_content" class="skinny_wrapper wrapper_padding">
+  <header>
+    <h1>Beer Colours</h1>
+    <hr>
+  </header>
+  <table>
+  <%= link_to "Add", new_beercolour_path %>
+    <thead>
+      <tr>
+        <th>Name For Colour</th>
+        <th>Image For Colour</th>
+        <th>Actions</th>
+      </tr>
+    </thead>
+
+    <tbody>
+      <% @beercolours.each do |beercolour| %>
+        <tr>
+          <td><%= beercolour.name %></td>
+          <td><%= image_tag beercolour.image.thumb.url.to_s, class: "circular" %></td>
+          <td><%= link_to 'Edit', edit_beercolour_path(beercolour) %>
+          <%= link_to 'Destroy', beercolour, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+        </tr>
+      <% end %>
+    </tbody>
+  </table>
+
+</div>
